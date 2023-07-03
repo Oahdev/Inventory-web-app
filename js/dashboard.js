@@ -70,7 +70,8 @@ $("document").ready(function(){
             success: function (response) {
                 var response = JSON.parse(response);
                 if(response.status==1){
-                    location.href = "https://oah-inventory.000webhostapp.com/";
+                    //redirect to home page
+                    // location.href = "https://oah-inventory.000webhostapp.com/";
                 }
             }
         });
