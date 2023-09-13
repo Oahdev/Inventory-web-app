@@ -2,7 +2,7 @@
 
 A simple inventory web application using PHP, MySQL, and JavaScript (AJAX, jQuery).
 
-It can help businesses keep track of their inventory, including products available, total quantity of products and total cost of all items.
+It helps businesses keep track of their inventory, including products available, total quantity of products and total cost of all items.
 
 It gives information of each product including;
 
