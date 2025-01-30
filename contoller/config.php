@@ -3,7 +3,7 @@
         private static function connect(){
          $host = "localhost";
          $username = "root";
-         $dbname = "stocks";
+         $dbname = "inventory";
          $password = "";
          $pdo = new PDO("mysql:hostname=$host;dbname=$dbname;charset=UTF8",$username,$password);
          $pdo->setAttribute(PDO::ATTR_ERRMODE , PDO::ERRMODE_EXCEPTION);

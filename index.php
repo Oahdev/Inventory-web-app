@@ -24,7 +24,7 @@ require "./header.php";
             </div>
             <button class="btn btn-primary btn-lg" type="submit" id="loginBtn">Login</button>
             <div class="alter-option">
-                <p>Don't have an account</p><a href="./signup">Signup</a>
+                <p>Don't have an account</p><a href="./signup.php">Signup</a>
             </div>
         </form>
     </div>

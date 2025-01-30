@@ -28,8 +28,7 @@ if($_SERVER["REQUEST_METHOD"] == "POST"){
                         product_name = :product_name,
                         quantity = :quantity,
                         price = :price,
-                        total = :total,
-                        date_updated = NOW()
+                        total = :total
                     WHERE product_id = :product_id AND user_id = :user_id",array(
                         ":product_id"=>$product_id,
                         ":user_id"=>$uid,
@@ -45,7 +44,7 @@ if($_SERVER["REQUEST_METHOD"] == "POST"){
                     $response["body"] = "edit product not found";
                 }
             }else{
-                DB::query("INSERT INTO products(user_id,product_name,quantity,price,total,date_updated) VALUES(
+                DB::query("INSERT INTO products(user_id,product_name,quantity,price,total,date_created) VALUES(
                     :user_id,
                     :product_name,
                     :quantity,

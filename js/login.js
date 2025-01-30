@@ -15,7 +15,7 @@ $("document").ready(function(){
                     $("#error-response").css({display:"none"});
                     $("#success-response").css({display:"flex"});
                     $("#success-response div").html(response.body);
-                    location.href = "https://oah-inventory.000webhostapp.com/dashboard";
+                    location.href = "./dashboard.php";
                 }else{
                     $("#email").css("border-color","red");
                     $("#pwd").css("border-color","red");

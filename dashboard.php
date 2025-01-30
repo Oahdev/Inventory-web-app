@@ -18,7 +18,7 @@ require "./header.php";
         <div class="dropdown">
             <div id="navAccountDrop">
                 <a href="./">Login</a>
-                <a href="./signup">Create Account</a>
+                <a href="./signup.php">Create Account</a>
                 <button id="logout_button">Logout</button>
                 <div id="logout_option">
                     <p>Are you sure?</p>

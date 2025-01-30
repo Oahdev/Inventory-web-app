@@ -18,11 +18,11 @@ $("document").ready(function(){
                     $("#"+response[2][i]+"-error").html(response[1][i]);
                 };
                 if(response[0]==1){
-                    location.href = "https://oah-inventory.000webhostapp.com/dashboard";
+                    location.href = "./dashboard.php";
                 }
             },
             complete: function(){
-                $("#loginBtn").removeAttr("disabled");;
+                $("#loginBtn").removeAttr("disabled");
             }
         });
     });

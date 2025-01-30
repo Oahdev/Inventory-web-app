@@ -11,7 +11,7 @@ if($_SERVER["REQUEST_METHOD"] == "POST"){
     ){
         $issue = $_POST["issue"];
         $email = $_POST["email"];
-        DB::query("INSERT INTO issues(email,issue,date) VALUES(:email,:issue,NOW())",array(":email"=>$email,":issue"=>$issue));
+        DB::query("INSERT INTO issues(email,issue,date_created) VALUES(:email,:issue,NOW())",array(":email"=>$email,":issue"=>$issue));
         $response["status"] = true;
         $response["body"] = "Thanks!! We will work on it.";
     }else{

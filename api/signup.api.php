@@ -51,7 +51,7 @@ if($_SERVER["REQUEST_METHOD"] == "POST"){
         }
 
         if((@$email_token && @$pwd_token && @$currency_token) == $token){
-            DB::query("INSERT INTO users(business_name,email,user_currency,pwd,session_token,date) VALUES(
+            DB::query("INSERT INTO users(business_name,email,user_currency,pwd,session_token,date_created) VALUES(
                 :business_name,
                 :email,
                 :user_currency,
