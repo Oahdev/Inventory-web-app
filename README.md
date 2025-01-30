@@ -34,5 +34,3 @@ It uses;
 -Bootstrap5 -> interface.
 
 
-Check it out:
-https://oah-inventory.000webhostapp.com
